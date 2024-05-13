@@ -1,0 +1,71 @@
+.supergraphic {
+    background-image: url('./img/Bosch-Supergraphic_RGB.svg');
+    background-repeat: no-repeat;
+    height: 0.37rem;
+    width: 100%;
+    background-position: center;
+    background-size: 100vw 100vh;
+    object-fit: cover;
+}
+
+.logo {
+    background-image: url('./img/Bosch_symbol_logo_black_red.svg');
+    height: 5rem;
+    position: relative;
+    transform: scale(1.02);
+    top: 7px;
+    left: 35px;
+    z-index: 5;
+    display: flex;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.request {
+    cursor: pointer;
+    width: 3em;
+    margin-right: 3em;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help {
+    top: 8em;
+    border-radius: 10px;
+    position: fixed;
+    height: 40em;
+    z-index: 800;
+}
+
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.35;
+    z-index: 600;
+}
+
+@media screen and (max-width: 1800px) {
+    .logo {
+        height: 3rem;
+    }
+
+    .help {
+        top: 2em;
+        border-radius: 10px;
+        position: fixed;
+        height: 33em;
+        z-index: 800;
+    }
+
+    .request {
+       width: 1.5em;
+        
+    }
+
+}

@@ -1,0 +1,246 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 2.9em;
+  padding-inline: 0.3em;
+  background-color: #CECECE;
+  border-radius: 20px;
+}
+
+.smallerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 2.3em;
+  padding-block: 0.5em;
+  background-color: #CECECE;
+  border-radius: 20px;
+}
+
+.contorno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0.2em;
+  border: solid 5px #055097;
+  width: 16em;
+  border-radius: 15px;
+  height: 3.2em;
+}
+
+.contornoTeste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0.2em;
+  border: solid 5px #055097;
+  width: 15em;
+  border-radius: 15px;
+  height: 2.7em;
+}
+
+.forms {
+  z-index: 500;
+  width: 1em;
+}
+
+.divForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qtd {
+  margin-left: 0.2em;
+  position: relative;
+  top: 1em;
+  color: black;
+  font-size: 0.4em;
+  z-index: 500;
+}
+
+.img {
+  border: 5px dashed white;
+}
+
+.coluna {
+  display: flex;
+  justify-content: center;
+}
+
+.count {
+  position: relative;
+  bottom: 5em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+  border: solid 2px hsla(0, 0, 0, 0.26);
+  height: 1em;
+  background-color: #E3E3E3;
+}
+
+.countText {
+  font-size: 0.4em;
+}
+
+.countTextNumber {
+  position: relative;
+  top: 0.06em;
+  margin-left: 0.12em;
+  font-size: 0.4em;
+}
+
+.button {
+  width: 97%;
+  height: 3em;
+  padding: 0.1em;
+  margin: 0.15em 0 0.15em 0;
+  font-size: 0.5em;
+  background-color: #007BC0;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tourney", sans-serif;
+  z-index: 400;
+}
+
+.borderstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 4.5em;
+  border-radius: 20px;
+  border: 5px solid #02549F;
+  width: 14%;
+}
+
+.borderstyleTest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 4.23em;
+  right: 6em;
+  border-radius: 20px;
+  border: 5px solid #02549F;
+  width: 14%;
+}
+
+.borderstylecleanTest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 6em;
+  left: 6em;
+  border-radius: 20px;
+  border: 5px solid #02549F;
+  width: 14%;
+}
+
+.input {
+  background-color: #999999;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 7px;
+  font-size: 0.3em;
+  margin-top: 0.9em;
+  height: 1.6em;
+  width: 3.4em;
+}
+
+.buttonIniciar {
+  display: flex;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #007BC0;
+  width: 30%;
+  cursor: pointer;
+  height: 1.4em;
+  padding-inline: 0.1em;
+  margin-inline: 0.1em;
+}
+
+.imgInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.iniciar {
+  font-size: 0.5em;
+}
+
+// @media screen and (max-width: 1400px) {
+//   .forms {
+//     z-index: 500;
+//     width: 0.5em;
+//   }
+
+//   .container{
+//     width: 8em;
+//     height: 1em;
+//     border-radius: 8px;
+//     bottom: 0.2em;
+//   }
+
+//   .qtd {
+//     top: 1em;
+//     font-size: 0.3em;
+//   }
+// }
+
+@media screen and (max-width: 1100px) {
+  .button {
+    bottom: 2em;
+    font-size: 0.6em;
+  }
+
+  // .borderstyle {
+  //   bottom: 4em;
+  // }
+
+  // .borderstyleTest {
+  //   bottom: 4.22em;
+  // }
+
+  // .borderstylecleanTest {
+  //   bottom: 6em;
+  // }
+
+  .count {
+    bottom: 2.5em;
+  }
+
+  .container {
+    bottom: 0.1em;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    bottom: 0.5em;
+  }
+
+  .contorno {
+    height: 3.4em;
+  }
+
+  
+
+}
